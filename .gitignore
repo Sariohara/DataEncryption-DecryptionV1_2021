@@ -1,0 +1,24 @@
+
+.fake
+.ionide
+
+#ignore .history directory
+.history
+
+#ignore .vscode directory
+.vscode
+
+#ignore bin directory
+bin/
+
+#ignore .git directory
+.git/
+
+#ignore obj directory
+obj/
+
+#ignore all visual studio files
+.vs/
+
+#ignore DotNetGui directory
+DotNetGuiV1/
