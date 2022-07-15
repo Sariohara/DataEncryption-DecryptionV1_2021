@@ -19,3 +19,10 @@ Editor:
   https://code.visualstudio.com/
   visual studio 2022
   https://visualstudio.microsoft.com/downloads/
+
+  flowchart TD
+  A[Deploy to production] --> B[Is IT FRIDAY];
+  B -- Yes --> D[Do Not Display];
+  B -- No --> D[Run Deploy.sh to deploy!];
+  C ----> E[Enjoy your weekend!];
+  D ----> E[Enjoy your weekend!];
